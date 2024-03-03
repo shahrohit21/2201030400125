@@ -1,0 +1,146 @@
+HTML code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+    <div class="desktop" id="22:2">
+    <img src="C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-24 234436.png"width="1440" height="814">
+    <div class="auto-group" >
+    <div class="flavoursome" Flavoursome </div>
+    <div class="auto-group" id=>
+    <div class="rectangle"</div>
+    <div class="log-in" >Log in</div>
+    </div>
+    <div class="auto-group" >
+    <div class="rectangle" </div>
+    <div class="sign-up" >Sign up</div>
+    </div>
+    </div>
+    <div class="find-the-best-indian-dishes" id="22:5">Find the best indian dishes</div>
+    </div>
+    </body>
+</html>
+
+
+
+
+CSS code:
+
+
+
+
+.desktop {
+    align-items: center;
+    background-color: dark rgb(15, 15, 108);
+    background-image: C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-24 234436.png
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1440 814;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 13.9rem;
+    position: relative;
+    width: 1440;
+  
+    .auto-group-fm65-g6h {
+      align-items: center;
+      backdrop-filter: blur(5.0967rem);
+      background-color: rgba(248, 245, 245, 0.1);
+      box-shadow: inset -5.0967rem 5.0967rem 5.0967rem rgba(255, 255, 255, 0.1000000015)), inset 5.0967rem -5.0967rem 5.0967rem rgba(164, 164, 164, 0.1000000015));
+      box-sizing: border-box;
+      display: flex;
+      flex-shrink: 0;
+      height: 6rem;
+      margin: 0rem 0.005rem 55.6rem 0rem;
+      padding: 0rem 4.9rem 0rem 2.9rem;
+      width: calc(100% - 0.0045rem);
+  
+      .flavoursome {
+        color: black;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Irish Grover, 'Source Sans Pro';
+        font-size: 4rem;
+        font-weight: 400;
+        line-height: 1.2222222328;
+        margin: 0.1rem 82.5rem 0rem 0rem;
+        white-space: nowrap;
+      }
+      .auto-group{
+        flex-shrink: 0;
+        height: 5.2rem;
+        margin: 0rem 4.7rem 0.8rem 0rem;
+        position: relative;
+        width: 11.7rem;
+  
+        .rectangle {
+          background-color: white;
+          cursor: pointer;
+          height: 4.5rem;
+          left: 0;
+          position: absolute;
+          top: 0.7rem;
+          width: 11.7rem;
+        }
+        .log-in {
+          color: black;
+          display: flex;
+          font-family: DM Serif Display, 'Source Sans Pro';
+          font-size: 3.6rem;
+          font-weight: 400;
+          height: 5rem;
+          left: 0.8rem;
+          line-height: 1.37;
+          position: absolute;
+          top: 0;
+          white-space: nowrap;
+          width: 9.7rem;
+        }
+      }
+      .auto-group {
+        flex-shrink: 0;
+        height: 5.1rem;
+        margin-bottom: 0.5rem;
+        position: relative;
+        width: 13.4rem;
+  
+        .rectangle-20-up1 {
+          background-color: white;
+          height: 4.5rem;
+          left: 0;
+          position: absolute;
+          top: 0.6rem;
+          width: 13.4rem;
+        }
+        .sign-up {
+          color: black;
+          display: flex;
+          font-family: DM Serif Display, 'Source Sans Pro';
+          font-size: 3.6rem;
+          font-weight: 400;
+          height: 5rem;
+          left: 0.8rem;
+          line-height: 1.37;
+          position: absolute;
+          top: 0;
+          white-space: nowrap;
+          width: 11.8rem;
+        }
+      }
+    }
+    .find-the-best-indian-dishes-DiD {
+      color: black;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 4.8rem;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 1.2245175076;
+      margin-left: 0.0955rem;
+      white-space: nowrap;
+    }
+  }
+  

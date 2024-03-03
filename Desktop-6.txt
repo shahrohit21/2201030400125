@@ -1,0 +1,310 @@
+Html code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+    <div class="desktop">
+ 	<div class="auto-group">
+	<div class="flavoursome">Flavoursome </div>
+   <p class="home">Home</p>
+   <p class="about">About</p>
+   <p class="recipe">Recipe</p>
+   <p class="categories">Categories</p>
+   	</div>
+	<div class="categories">Categories</div>
+	<div class="auto-group">
+	<div class="auto-group">
+	<img class="r8-1-6iq" src="/api/try-prod-ap-southeast-1-first-cluster/project..." id="23:21"/>
+	<div class="south-indian-dishes">
+	south Indian
+	
+	<br/>
+	Dishes
+
+	</div>
+	</div>
+	<div class="auto-group">
+	<img class="r5-1-vrH" src="/api/try-prod-ap-southeast-1-first-cluster/project..." id="23:17"/>
+	<div class="chinese-dishes">	
+	Chinese
+
+	<br/>
+	Dishes
+
+	</div>
+	</div>
+	</div>
+	<div class="auto-group">
+	<div class="auto-group">
+	<div class="rectangle"></div>
+	<p class="non-vegiterian-dishes">
+	Non
+
+	<br/>
+	Vegiterian
+
+	<br/>
+	Dishes
+
+	</p>
+	<img class="r6-1-v13" src="/api/try-prod-ap-southeast-1-first-cluster/project..." id="23:19"/>
+	</div>
+	<div class="auto-group">
+	<img class="r4-1-mXT" src="/api/try-prod-ap-southeast-1-first-cluster/project..." id="23:14"/>
+	<div class="north-indian-dishes">
+	North Indian
+
+	<br/>
+	Dishes
+
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+   
+CSS Code:
+
+
+.desktop {
+  align-items: center;
+  background-color: #257f92;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0.4rem 0rem 4.4rem 0.1rem;
+  position: relative;
+  width: 100%;
+
+  .auto-group {
+    align-items: center;
+    backdrop-filter: blur(5.0967rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -5.0967rem 5.0967rem 5.0967rem rgba(255, 255, 255, 0.1000000015)), inset 5.0967rem -5.0967rem 5.0967rem rgba(164, 164, 164, 0.1000000015));
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 2.4rem;
+    padding: 0.5rem 3.6rem 0.6rem 3.1rem;
+    width: 144rem;
+
+    .flavoursome{
+      color: #ffffff;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Irish Grover, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.2222222328;
+      margin-right: 53.8rem;
+      white-space: nowrap;
+    }
+    .home {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.9rem;
+      white-space: nowrap;
+    }
+    .about {
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.9rem;
+      white-space: nowrap;
+    }
+    .recipe{
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.9rem;
+      white-space: nowrap;
+    }
+    .categories {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      white-space: nowrap;
+    }
+  }
+  .categories {
+    color: #000000;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Acme, 'Source Sans Pro';
+    font-size: 6.4rem;
+    font-weight: 400;
+    line-height: 1.222222209;
+    margin: 0rem 0rem 2.5rem 0.8rem;
+    white-space: nowrap;
+  }
+  .auto-group{
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 27.7rem;
+    margin: 0rem 9.8rem 2.4rem 9.3rem;
+    width: calc(100% - 19.1rem);
+
+    .auto-group{
+      align-items: center;
+      backdrop-filter: blur(2.2933rem);
+      background-color: rgba(217, 217, 217, 0.1000000015);
+      box-shadow: inset -2.2933rem 2.2933rem 2.2933rem rgba(255, 255, 255, 0.1000000015)), inset 2.2933rem -2.2933rem 2.2933rem rgba(164, 164, 164, 0.1000000015));
+      box-sizing: border-box;
+      display: flex;
+      flex-shrink: 0;
+      height: 100%;
+      margin-right: 13.4rem;
+      padding: 1.4rem 7.8rem 1.5rem 2rem;
+
+      .r8-1-6iq {
+        flex-shrink: 0;
+        height: 24.7rem;
+        margin: 0.1rem 3.1rem 0rem 0rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 26.3rem;
+      }
+      .south-indian-dishes{
+        background-color: #000000;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Abel, 'Source Sans Pro';
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 1.222222209;
+        margin-bottom: 1.3rem;
+        max-width: 16.5rem;
+      }
+    }
+    .auto-group {
+      align-items: flex-start;
+      backdrop-filter: blur(2.2933rem);
+      background-color: rgba(217, 217, 217, 0.1000000015);
+      box-shadow: inset -2.2933rem 2.2933rem 2.2933rem rgba(255, 255, 255, 0.1000000015)), inset 2.2933rem -2.2933rem 2.2933rem rgba(164, 164, 164, 0.1000000015));
+      box-sizing: border-box;
+      display: flex;
+      flex-shrink: 0;
+      height: 100%;
+      padding: 1.4rem 5.4rem 1.5rem 1.6rem;
+
+      .r5-1-vrH {
+        flex-shrink: 0;
+        height: 24.7rem;
+        margin: 0.1rem 3rem 0rem 0rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 26.3rem;
+      }
+      .chinese-dishes{
+        color: #000000;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Abel, 'Source Sans Pro';
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 1.222222209;
+        max-width: 19.4rem;
+      }
+    }
+  }
+  .auto-group {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 27.7rem;
+    margin: 0rem 9.8rem 0rem 9.3rem;
+    width: calc(100% - 19.1rem);
+
+    .auto-group {
+      flex-shrink: 0;
+      height: 100%;
+      margin-right: 13.3rem;
+      position: relative;
+      width: 55.8rem;
+
+      .rectangle {
+        backdrop-filter: blur(2.2933rem);
+        background-color: rgba(217, 217, 217, 0.1000000015);
+        box-shadow: inset -2.2933rem 2.2933rem 2.2933rem rgba(255, 255, 255, 0.1000000015)), inset 2.2933rem -2.2933rem 2.2933rem rgba(164, 164, 164, 0.1000000015));
+        height: 27.7rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 55.7rem;
+      }
+      .non-vegiterian-dishes{
+        color: #161313;
+        font-family: Abel, 'Source Sans Pro';
+        font-size: 6.4rem;
+        font-weight: 400;
+        height: 24.5rem;
+        left: 31.4rem;
+        line-height: 1.275;
+        position: absolute;
+        top: 0.9rem;
+        width: 24.4rem;
+      }
+      .r6-1-v13 {
+        height: 24.7rem;
+        left: 2rem;
+        object-fit: cover;
+        position: absolute;
+        top: 1.5rem;
+        vertical-align: top;
+        width: 26.3rem;
+      }
+    }
+    .auto-group {
+      align-items: center;
+      backdrop-filter: blur(2.2933rem);
+      background-color: rgba(217, 217, 217, 0.1000000015);
+      box-shadow: inset -2.2933rem 2.2933rem 2.2933rem rgba(255, 255, 255, 0.1000000015)), inset 2.2933rem -2.2933rem 2.2933rem rgba(164, 164, 164, 0.1000000015));
+      box-sizing: border-box;
+      display: flex;
+      flex-shrink: 0;
+      height: 100%;
+      padding: 0.8rem 8.3rem 1.5rem 1.6rem;
+
+      .r4-1-mXT {
+        flex-shrink: 0;
+        height: 24.7rem;
+        margin: 0.7rem 3rem 0rem 0rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 26.3rem;
+      }
+      .north-indian-dishes {
+        color: #000000;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Abel, 'Source Sans Pro';
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 1.222222209;
+        margin-bottom: 1.9rem;
+        max-width: 16.5rem;
+      }
+    }
+  }
+}

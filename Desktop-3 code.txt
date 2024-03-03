@@ -1,0 +1,145 @@
+Html code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+	<div class="desktop">
+        <img src="C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-24 234436.png"width="1440" height="814">
+	<div class="auto-group">
+	<div class="flavoursome">Flavoursome </div>
+	<p class="home" >Home</p>
+	<p class="about">About</p>
+	<p class="recipe">Recipe</p>
+	<p class="categories">Categories</p>
+	</div>
+	<div class="auto-group">
+	<div class="frame">Start recipe</div>
+	<p class="discover-test-sencetions">Discover Test Sencetions</p>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+CSS Code:
+
+.desktop {
+  align-items: center;
+  background-color:white;
+background-image:C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-24 234436.png"width="1440" height="814">
+  background-position: center
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  .auto-group {
+    align-items: center;
+    backdrop-filter: blur(5.0967rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -5.0967rem 5.0967rem 5.0967rem rgba(255, 255, 255, 0.1000000015)), inset 5.0967rem -5.0967rem 5.0967rem rgba(164, 164, 164, 0.1000000015));
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    padding: 0.6rem 4.5rem 0.5rem 2.7rem;
+    width: 100%;
+
+    .flavoursome{
+      color: black;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Irish Grover, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.2222222328;
+      margin-right: 54.3rem;
+      white-space: nowrap;
+    }
+    .home {
+      color:black;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.6rem;
+      white-space: nowrap;
+    }
+    .about {
+      color:black;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin: 0.2rem 4.6rem 0rem 0rem;
+      white-space: nowrap;
+    }
+    .recipe {
+      color: black;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin: 0.2rem 4.5rem 0rem 0rem;
+      white-space: nowrap;
+    }
+    .categories {
+      color: black;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-top: 0.2rem;
+      white-space: nowrap;
+    }
+  }
+  .auto-group {
+    align-items: flex-end;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 40rem 10.5rem 6rem 14.6rem;
+    width: 100%;
+
+    .frame{
+      align-items: center;
+      background-color: white;
+      color: #000000;
+      cursor: pointer;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 400;
+      height: 7.4rem;
+      justify-content: center;
+      line-height: 1.2125;
+      margin-bottom: 10.3rem;
+      overflow: hidden;
+      position: relative;
+      white-space: nowrap;
+      width: 30rem;
+    }
+    .discover-test-sencetions {
+      color: white;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 9.6rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.1rem;
+      white-space: nowrap;
+    }
+  }
+}

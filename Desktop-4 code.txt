@@ -1,0 +1,223 @@
+Html code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+	<div class="desktop">
+	<div class="auto-group">
+	<div class="flavoursome">Flavoursome </div>
+	<p class="home">Home</p>
+	<p class="about">About</p>
+	<p class="recipe">Recipe</p>
+	<p class="categories">Categories</p>
+	</div>
+	<div class="auto-group">
+	<img src="C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-25 175208.png">
+	<div class="auto-groupf>
+	<p class="about">About</p>
+	<p class="welcome-to-our-recipe-website-where-culinary-inspiration-meets-delicious-creations-whether-youre-a-seasoned-chef-or-a-	passionate-home-cook-we-are-here-to-ignite-your-taste-buds-and-guide-you-on-o-delightful-culinary-journey-our-extensive-		collection-of-recipes-covers-a-wide-range-of-cuitines-from-comforting-classics-to-innovative-fusion-dishes-each-recipe-is	-	thoughtfully-crofted-tested-and-presented-with-step-by-step-instructions-ensuring-that-even-the-novice-cook-can-create-	extraordinary-meals-we-believe-that-cooking-is-an-art-form-that-brings-people-together-and-our-gool-is-to-empower-you-to-explore-	your-culinary-creativity-and-make-every-meal-o-masterpiece-so-come-on-in-explore-our-diverse-recipe-collection-and-lets-embark-on-	a-delightful-gostronomic-adventure-together-GuK" id="22:32">
+	Welcome to our recipe website, where culinary
+
+	<br/>inspiration meets delicious creations! Whether you&#39;re a
+
+	<br/>seasoned chef or a passionate home cook, we are here
+
+	<br/>to ignite your taste buds and guide you on o
+
+	<br/>delightful culinary journey. Our extensive collection of
+
+	<br/>recipes covers a wide range of cuitines, from
+
+	<br/>comforting classics to innovative fusion dishes. Each
+
+	<br/>recipe is thoughtfully crofted, tested, and presented
+
+	<br/>with step-by-step instructions, ensuring that even the
+	
+	<br/>novice cook can create extraordinary meals. We
+
+	<br/>believe that cooking is an art form that brings people
+
+	<br/>together, and our gool is to empower you to explore
+	
+	<br/>your culinary creativity and make every meal o
+
+	<br/>masterpiece. So come on in, explore our diverse recipe
+
+	<br/>collection, and let&#39;s embark on a delightful
+
+	<br/>gostronomic adventure together!
+
+	</p>
+	<div class="auto-group">
+	<div class="rectangle"></div>
+	<p class="next">Next</p>
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+CSS Code:
+
+
+.desktop {
+  align-items: center;
+  background-color: #257F92;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 4.5rem;
+  position: relative;
+  width: 100%;
+
+  .auto-groud {
+    align-items: center;
+    backdrop-filter: blur(5.0967rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -5.0967rem 5.0967rem 5.0967rem rgba(255, 255, 255, 0.1000000015)), inset 5.0967rem -5.0967rem 5.0967rem rgba(164, 164, 164, 0.1000000015));
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    margin-bottom: 5.3rem;
+    padding: 0.5rem 4.2rem 0.6rem 2.8rem;
+    width: 100%;
+
+    .flavoursome {
+      color: #ffffff;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Irish Grover, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.2222222328;
+      margin-right: 55.2rem;
+      white-space: nowrap;
+    }
+    .home{
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.4rem;
+      white-space: nowrap;
+    }
+    .about{
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin: 0.2rem 4.4rem 0rem 0rem;
+      white-space: nowrap;
+    }
+    .recipe {
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin: 0.2rem 4.2rem 0rem 0rem;
+      white-space: nowrap;
+    }
+    .categories {
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-top: 0.6rem;
+      white-space: nowrap;
+    }
+  }
+  .auto-group {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    height: 65.6rem;
+    margin: 0rem 11rem 0rem 4.1rem;
+    width: calc(100% - 15.1rem);
+
+    . C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-25 175208.png{
+      flex-shrink: 0;
+      height: 54.9rem;
+      margin: 2.1rem 5.3rem 0rem 0rem;
+      object-fit: cover;
+      vertical-align: top;
+      width: 71.4rem;
+    }
+    .auto-group{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      height: 100%;
+
+      .about {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin: 0rem 18.8rem 2.4rem 0rem;
+        white-space: nowrap;
+      }
+      .welcome-to-our-recipe-website-where-culinary-inspiration-meets-delicious-creations-whether-youre-a-seasoned-chef-or-a-passionate-home-cook-we-are-here-to-ignite-your-taste-buds-and-guide-you-on-o-delightful-culinary-journey-our-extensive-collection-of-recipes-covers-a-wide-range-of-cuitines-from-comforting-classics-to-innovative-fusion-dishes-each-recipe-is-thoughtfully-crofted-tested-and-presented-with-step-by-step-instructions-ensuring-that-even-the-novice-cook-can-create-extraordinary-meals-we-believe-that-cooking-is-an-art-form-that-brings-people-together-and-our-gool-is-to-empower-you-to-explore-your-culinary-creativity-and-make-every-meal-o-masterpiece-so-come-on-in-explore-our-diverse-recipe-collection-and-lets-embark-on-a-delightful-gostronomic-adventure-together-GuK {
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin-bottom: 7.7rem;
+        max-width: 52.2rem;
+      }
+      .auto-group {
+        flex-shrink: 0;
+        height: 8.9rem;
+        margin-left: 27.3rem;
+        position: relative;
+        width: 21.3rem;
+
+        .rectangle {
+          backdrop-filter: blur(1.18rem);
+          background-color: rgba(217, 217, 217, 0.1000000015);
+          box-shadow: inset -1.18rem 1.18rem 1.18rem rgba(255, 255, 255, 0.1000000015)), inset 1.18rem -1.18rem 1.18rem rgba(164, 164, 164, 0.1000000015));
+          cursor: pointer;
+          height: 8.4rem;
+          left: 0;
+          position: absolute;
+          top: 0;
+          width: 21.3rem;
+        }
+        .next{
+          color: #000000;
+          font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+          font-size: 6.4rem;
+          font-weight: 800;
+          height: 8.1rem;
+          left: 4.5rem;
+          line-height: 1.2575;
+          position: absolute;
+          top: 0.8rem;
+          white-space: nowrap;
+          width: 13.4rem;
+        }
+      }
+    }
+  }
+}
+

@@ -1,0 +1,148 @@
+Html code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+    	<div class="desktop-1">
+        <img src="C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-24 234436.png"width="1440" height="814">
+    	<div class="auto-group" >Flavoursome </div>
+  	<div class="auto-group" >
+	<div class="user-login" >User Login</div>
+    <label for="email">Email:</label><br>
+    <input type="text" id="username" name="username"><br><br>
+	<label for="password">Password:</label><br>
+    <input type="password" id="password" name="password"><br><br>
+    <input type="submit" value="Log in">
+	
+    <div class="created-by-rohit-shah">#2024 created by Rohit shah</div>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+CSS Code:
+
+.desktop{
+  align-items: center;
+  background-color: white;
+  background-image:C:\Users\Rohit Shah\Pictures\Screenshots\Screenshot 2024-02-24 234436.png"width="1440" height="814";
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1440 810;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-bottom: 9.1rem;
+  position: relative;
+  width: 100%;
+
+  .auto-group{
+    backdrop-filter: blur(5.0967rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -5.0967rem 5.0967rem 5.0967rem rgba(255, 255, 255, 0.1000000015)), inset 5.0967rem -5.0967rem 5.0967rem rgba(164, 164, 164, 0.1000000015));
+    box-sizing: border-box;
+    color:black;
+    display: flex;
+    flex-shrink: 0;
+    font-family: Irish Grover, 'Source Sans Pro';
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.2222222328;
+    margin-bottom: 5.2rem;
+    padding: 0.6rem 3rem 0.5rem 3rem;
+    white-space: nowrap;
+    width: 100%;
+  }
+  .auto-group {
+    align-items: center;
+    backdrop-filter: blur(3.38rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    border-radius: 2rem;
+    box-shadow: inset -3.38rem 3.38rem 3.38rem rgba(255, 255, 255, 0.1000000015)), inset 3.38rem -3.38rem 3.38rem rgba(164, 164, 164, 0.1000000015));
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin: 0rem 52rem 0rem 51.7rem;
+    padding: 0rem 2.8rem 6.9rem 3rem;
+    width: calc(100% - 103.7rem);
+
+    .user-login{
+      color: black;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 800;
+      line-height: 1.2222222328;
+      margin: 0rem 0rem 3rem 1.3rem;
+      white-space: nowrap;
+    }
+    .email {
+      color: black;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.222222209;
+      margin-right: 25.3rem;
+      white-space: nowrap;
+    }
+    .rectangle{
+      background-color: glassy;
+      flex-shrink: 0;
+      height: 4.8rem;
+      margin: 0rem 0rem 3rem 0.2rem;
+      width: 34.3rem;
+    }
+    .password {
+      color:black;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.222222209;
+      margin-right: 19.5rem;
+      white-space: nowrap;
+    }
+    .rectangle {
+      background-color:glassy;
+      flex-shrink: 0;
+      height: 4.8rem;
+      margin: 0rem 0.2rem 4.8rem 0rem;
+      width: 34.3rem;
+    }
+    .auto-group{
+      align-items: center;
+      background-color: #d9d9d9;
+      color: glassy;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 800;
+      height: 5.5rem;
+      justify-content: center;
+      line-height: 1.222222209;
+      margin: 0rem 9.6rem 5.6rem 9.4rem;
+      white-space: nowrap;
+      width: calc(100% - 19rem);
+    }
+    .created-by-rohit-shah{
+      color: black;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Alex Brush, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.2222222328;
+      margin-left: 1.7rem;
+      max-width: 27.8rem;
+    }
+  }
+}

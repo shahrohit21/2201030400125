@@ -1,0 +1,186 @@
+Html code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+
+	<div class="desktop">
+	<div class="auto-group">
+	<div class="flavoursome">Flavoursome </div>
+	<p class="home">Home</p>
+	<p class="about">About</p>
+	<p class="recipe">Recipe</p>
+	<p class="categories">Categories</p>
+	</div>
+	<div class="auto-group">
+
+     <img class="image-25-CSy" src="/api/try-prod-ap-southeast-1-first-cluster/project..."/>
+
+	<form action="/submit_form" method="post">
+	  <label for="name">Name:</label><br>
+	  <input type="text" id="name" name="name"><br>
+  
+	  <label for="email">Email:</label><br>
+	  <input type="email" id="email" name="email"><br>
+	  
+	  <label for="message">Message:</label><br>
+	  <textarea id="message" name="message"></textarea><br>
+  
+	  </form>
+	
+	</p>
+	<div class="rectangle"></div>
+	<p class="send-message-Yz1" id="46:30">Send Message</p>
+	<p class="contact-information-address-123-main-streets-citycitycountry-email-infoexamplecom-3fs" id="46:15">
+	<span class="contact-information-address-123-main-streets-citycitycountry-email-infoexamplecom-3fs-sub-0">
+	Contact Information
+
+	<br/>
+	</span>
+	<span class="contact-information-address-123-main-streets-citycitycountry-email-infoexamplecom-3fs-sub-1">
+	Address: 123 Main Streets city,city,country
+
+	<br/>
+	<br/>
+	Email:info@example.com
+	
+	<br/>
+	<br/>
+	</span>
+	</p>	
+	</div>
+	</div>
+
+</body>
+</html>
+
+
+
+CSS Code:
+
+
+.auto-group {
+  flex-shrink: 0;
+  height: 91.6rem;
+  position: relative;
+  width: 134.8rem;
+
+  .ontact-form-name-email-message-send-memoge{
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    font-size: 3.2rem;
+    font-weight: 400;
+    height: 35rem;
+    left: 63.1rem;
+    line-height: 1.2125;
+    position: absolute;
+    top: 56.6rem;
+    width: 21.9rem;
+  }
+  .image{
+    height: 75.3rem;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    vertical-align: top;
+    width: 114.1rem;
+  }
+  .contact-form-name-email-message--usB {
+    color: #000000;
+    font-family: ABeeZee, 'Source Sans Pro';
+    font-size: 3.2rem;
+    font-weight: 400;
+    height: 27.3rem;
+    left: 81.4rem;
+    line-height: 1.1825;
+    position: absolute;
+    top: 4.7rem;
+    width: 21.9rem;
+
+    .contact-form-name-email-message--usB-sub-0 {
+      color: #000000;
+      font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+      font-size: 3.6rem;
+      font-weight: 800;
+      line-height: 1.2575;
+    }
+    .contact-form-name-email-message--usB-sub-1 {
+    }
+  }
+  .rectangle {
+    backdrop-filter: blur(1.4067rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -1.4067rem 1.4067rem 1.4067rem rgba(255, 255, 255, 0.1000000015)), inset 1.4067rem -1.4067rem 1.4067rem rgba(164, 164, 164, 0.1000000015));
+    height: 5rem;
+    left: 97rem;
+    position: absolute;
+    top: 11.3rem;
+    width: 36.2rem;
+  }
+  .rectangle{
+    backdrop-filter: blur(1.4067rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -1.4067rem 1.4067rem 1.4067rem rgba(255, 255, 255, 0.1000000015)), inset 1.4067rem -1.4067rem 1.4067rem rgba(164, 164, 164, 0.1000000015));
+    height: 5rem;
+    left: 97rem;
+    position: absolute;
+    top: 19rem;
+    width: 36.2rem;
+  }
+  .rectangle{
+    backdrop-filter: blur(1.4067rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -1.4067rem 1.4067rem 1.4067rem rgba(255, 255, 255, 0.1000000015)), inset 1.4067rem -1.4067rem 1.4067rem rgba(164, 164, 164, 0.1000000015));
+    height: 5rem;
+    left: 97rem;
+    position: absolute;
+    top: 26.7rem;
+    width: 36.2rem;
+  }
+  .rectangle{
+    backdrop-filter: blur(1.4067rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -1.4067rem 1.4067rem 1.4067rem rgba(255, 255, 255, 0.1000000015)), inset 1.4067rem -1.4067rem 1.4067rem rgba(164, 164, 164, 0.1000000015));
+    height: 8.3rem;
+    left: 105.5rem;
+    position: absolute;
+    top: 52.4rem;
+    width: 29.3rem;
+  }
+  .send-message {
+    color: #000000;
+    font-family: ABeeZee, 'Source Sans Pro';
+    font-size: 3.6rem;
+    font-weight: 400;
+    height: 4.3rem;
+    left: 108.1rem;
+    line-height: 1.1825;
+    position: absolute;
+    top: 54.4rem;
+    white-space: nowrap;
+    width: 24.1rem;
+  }
+  .contact-information-address-123-main-streets-citycitycountry-email-infoexamplecom-3fs {
+    color: #000000;
+    font-family: ABeeZee, 'Source Sans Pro';
+    font-size: 3.2rem;
+    font-weight: 400;
+    height: 23.5rem;
+    left: 1.6rem;
+    line-height: 1.1825;
+    position: absolute;
+    top: 4.1rem;
+    width: 45.4rem;
+
+    .contact-information-address-123-main-streets-citycitycountry-email-infoexamplecom-3fs-sub-0 {
+      color: #000000;
+      font-family: Abhaya Libre ExtraBold, 'Source Sans Pro';
+      font-size: 3.6rem;
+      font-weight: 800;
+      line-height: 1.2575;
+    }
+    .contact-information-address-123-main-streets-citycitycountry-email-infoexamplecom-3fs-sub-1 {
+    }
+  }
+}

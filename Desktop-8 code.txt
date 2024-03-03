@@ -1,0 +1,222 @@
+Html code:
+
+<!DOCTYPE html>
+<html>
+    <body>
+	<div class="desktop">
+	<div class="auto-group">
+	<div class="flavoursome">Flavoursome </div>
+	<p class="home">Home</p>
+	<p class="about">About</p>
+	<p class="recipe">Recipe</p>
+	<p class="categories">Categories</p>
+	</div>
+	<div class="auto-group">
+	<div class="auto-group">
+	<div class="gulab-jamun">Gulab Jamun</div>
+	<div class="recipe">Recipe</div>
+	</div>
+	<div class="auto-group">
+	<img class="screenshot-2024-02-26-111211-1-BYh" src="/api/try-prod-ap-southeast-1-first-cluster/project..." id="36:105"/>
+	<div class="auto-group">
+
+	<div class="firstly-in-a-large-bowl-take-cup-milk-powder-cup-maida-and-tsp-baking-powder-mix-well-homemade-gulab-jamun-mix-is-ready-now-add-2-tbsp-ghee-and-mix-well-making-the	-	flour-moist-further-add-milk-as-required-and-start-to-combine-combine-well-forming-a-soft-dough-do-not-knead-the-dough-cover-and-rest-for-10-minutes-ctu" id="37:121">Firstly, in a 	large bowl take ¾ cup milk powder, ½ cup maida, and ½ tsp baking powder. Mix well, homemade gulab jamun mix is ready. Now add 2 tbsp ghee and mix well making the flour moist. 	Further, add milk as required and start to combine. Combine well forming a soft dough. do not knead the dough. Cover and rest for 10 minutes</div>
+
+	<div class="take-out-the-balls-and-remove-the-excess-oil-then-gently-leave-thegulab-jamunballsinthe-sugar-syrup-let-thegulabjamuns-absorb-the-syrup-after-half-an-hour-extract-them-	and-place-themina-bowl-and-gently-pour-some-sugar-syrup-last-but-not-the-least-garnish-thegulabjamuns-with-some-finely-chopped-pistachios-wph" id="37:111">
+	Take out the balls and remove the excess oil, then gently leave the gulab jamun balls in the sugar syrup. Let the Gulab Jamuns absorb the syrup. After half an hour, extract them 	and place them in a bowl and gently pour some sugar syrup. Last, but not the least, garnish the gulab jamuns with some finely chopped pistachios.
+
+	<br/>
+	</div>
+	<div class="when-the-jamuns-are-golden-brown-use-a-slotted-spoon-to-remove-them-from-the-oil-and-drain-on-paper-towels-let-eachjamunsit-for-45-to-60-seconds-and-then-add-the-fried-	jamuns-to-the-warm-sugar-syrup-repeat-with-the-next-batch-of-jamuns-frying-them-and-then-adding-them-to-the-sugar-syrup-5Jd" id="37:112">
+	When the jamuns are golden brown, use a slotted spoon to remove them from the oil and drain on paper towels. Let each jamun sit for 45 to 60 seconds, and then add the fried jamuns 	to the warm sugar syrup. Repeat with the next batch of jamuns, frying them and then adding them to the sugar syrup.
+
+	<br/>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+</body>
+</html>
+
+
+
+
+CSS Code:
+
+
+.desktop {
+  align-items: center;
+  background-color: #257f92;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  .auto-group {
+    align-items: center;
+    backdrop-filter: blur(5.0967rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    box-shadow: inset -5.0967rem 5.0967rem 5.0967rem rgba(255, 255, 255, 0.1000000015)), inset 5.0967rem -5.0967rem 5.0967rem rgba(164, 164, 164, 0.1000000015));
+    box-sizing: border-box;
+    display: flex;
+    flex-shrink: 0;
+    padding: 0.5rem 3.4rem 0.6rem 3rem;
+    width: 100%;
+
+    .flavoursome {
+      color: #ffffff;
+      display: flex;
+      flex-shrink: 0;
+      font-family: Irish Grover, 'Source Sans Pro';
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1.2222222328;
+      margin-right: 54.1rem;
+      white-space: nowrap;
+    }
+    .home {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 5rem;
+      white-space: nowrap;
+    }
+    .about {
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.8rem;
+      white-space: nowrap;
+    }
+    .recipe {
+      color: #ffffff;
+      cursor: pointer;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      margin-right: 4.9rem;
+      white-space: nowrap;
+    }
+    .categories {
+      color: #ffffff;
+      flex-shrink: 0;
+      font-family: Inter, 'Source Sans Pro';
+      font-size: 3.2rem;
+      font-weight: 400;
+      line-height: 1.2125;
+      white-space: nowrap;
+    }
+  }
+  .auto-group {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 4.9rem 4.4rem 4.5rem 4.5rem;
+    width: 100%;
+
+    .auto-group {
+      align-items: flex-end;
+      display: flex;
+      flex-shrink: 0;
+      margin: 0rem 35.5rem 0rem 12.3rem;
+      width: calc(100% - 47.8rem);
+
+      .gulab-jamun {
+        color: #000000;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Acme, 'Source Sans Pro';
+        font-size: 6.4rem;
+        font-weight: 400;
+        line-height: 1.222222209;
+        margin: 0rem 40.6rem 1.1rem 0rem;
+        white-space: nowrap;
+      }
+      .recipe {
+        color: #ffffff;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Acme, 'Source Sans Pro';
+        font-size: 4.8rem;
+        font-weight: 400;
+        line-height: 1.2222221692;
+        white-space: nowrap;
+      }
+    }
+    .auto-group {
+      align-items: flex-start;
+      display: flex;
+      flex-shrink: 0;
+      height: 57rem;
+      width: 100%;
+
+      .screenshot-2024-02-26-111211-1-BYh {
+        flex-shrink: 0;
+        height: 55.5rem;
+        margin: 0.2rem 1.3rem 0rem 0rem;
+        object-fit: cover;
+        vertical-align: top;
+        width: 58.8rem;
+      }
+      .auto-group {
+        align-items: flex-end;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: 100%;
+
+        .firstly-in-a-large-bowl-take-cup-milk-powder-cup-maida-and-tsp-baking-powder-mix-well-homemade-gulab-jamun-mix-is-ready-now-add-2-tbsp-ghee-and-mix-well-making-the-flour-moist-further-add-milk-as-required-and-start-to-combine-combine-well-forming-a-soft-dough-do-not-knead-the-dough-cover-and-rest-for-10-minutes-ctu {
+          color: #000000;
+          display: flex;
+          flex-shrink: 0;
+          font-family: ABeeZee, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 1.2222221692;
+          margin: 0rem 0.6rem 3.7rem 0rem;
+          max-width: 70.7rem;
+        }
+        .take-out-the-balls-and-remove-the-excess-oil-then-gently-leave-thegulab-jamunballsinthe-sugar-syrup-let-thegulabjamuns-absorb-the-syrup-after-half-an-hour-extract-them-and-place-themina-bowl-and-gently-pour-some-sugar-syrup-last-but-not-the-least-garnish-thegulabjamuns-with-some-finely-chopped-pistachios-wph {
+          color: #000000;
+          display: flex;
+          flex-shrink: 0;
+          font-family: ABeeZee, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 1.2222221692;
+          margin: 0rem 1.4rem 3.4rem 0rem;
+          max-width: 73.6rem;
+        }
+        .when-the-jamuns-are-golden-brown-use-a-slotted-spoon-to-remove-them-from-the-oil-and-drain-on-paper-towels-let-eachjamunsit-for-45-to-60-seconds-and-then-add-the-fried-jamuns-to-the-warm-sugar-syrup-repeat-with-the-next-batch-of-jamuns-frying-them-and-then-adding-them-to-the-sugar-syrup-5Jd {
+          color: #000000;
+          display: flex;
+          flex-shrink: 0;
+          font-family: ABeeZee, 'Source Sans Pro';
+          font-size: 2.4rem;
+          font-weight: 400;
+          line-height: 1.2222221692;
+          max-width: 75rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
